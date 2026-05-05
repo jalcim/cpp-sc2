@@ -12,6 +12,11 @@ add_executable(cpp_sc2_unit_tests
     test_main.cc
     test_ability_data.cc
     test_score_details.cc
+    test_unit_proto.cc
+    test_observation_interface.cc
+    test_alert_routing.cc
+    test_connection_race.cc
+    test_coordinator_throw.cc
 )
 
 target_include_directories(cpp_sc2_unit_tests PRIVATE
